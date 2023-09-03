@@ -21,7 +21,7 @@ const style = {
   p: 4,
 };
 
-const pages = ["Home", "Intership", "Courses"];
+const pages = ["Home", "Internship", "Courses"];
 
 const Navbar = () => {
   const navigate = useNavigate()

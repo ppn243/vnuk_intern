@@ -68,7 +68,7 @@ const Home = () => {
 
         <div className="text-center pt-10">
           <h2 className="font-bold text-xl text-blue-900 py-7">
-            TOP INTERSHIPS
+            TOP INTERNSHIPS
           </h2>
         </div>
 
@@ -121,7 +121,7 @@ const Home = () => {
         </div>
         <div className="p-4 flex justify-end text-blue-800">
           <button className="bg-transparent hover:bg-blue-900 text-blue-900 font-semibold hover:text-white py-1 px-4 border border-blue-900 hover:border-transparent rounded">
-            See All Interships
+            See All Internships
           </button>
         </div>
 

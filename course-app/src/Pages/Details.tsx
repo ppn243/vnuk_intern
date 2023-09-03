@@ -11,7 +11,7 @@ const Details = () => {
   return (
     <>
       <div className="text-3xl font-bold mt-5 text-center">
-        {card?.label + " Intership in Ho Chi Minh at FPT Software"}
+        {card?.label + " Internship in Ho Chi Minh at FPT Software"}
       </div>
       <div className="shadow-md my-10 mx-5 p-14">
         <div className="flex justify-between leading-normal">

@@ -64,7 +64,7 @@ const PreferencesSections = [
         textColor: "text-gray-900",
       },
       {
-        option: "Interships",
+        option: "Internships",
         textColor: "text-gray-900",
       },
     ],

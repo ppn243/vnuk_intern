@@ -4,7 +4,7 @@ import "./App.css";
 import Home from "./Pages/Home";
 import { Navbar2, Navbar } from "./Components/Navbar";
 import SignUp from "./Pages/SignUp";
-import Interships from "./Pages/Interships";
+import Internships from "./Pages/Internships";
 import Courses from "./Pages/Courses";
 import Details from "./Pages/Details";
 import Apply from "./Pages/Apply";
@@ -22,13 +22,13 @@ function App() {
           <Route path="/" element={<><Navbar /><Home /></>}/>
           <Route path="/Home" element={<><Navbar /><Home /></>}/>
           <Route path="/SignUp" element={<><Navbar2 /><SignUp /></>}/>
-          <Route path="/Intership" element={<><Navbar /><Interships /></>}/>
+          <Route path="/Internship" element={<><Navbar /><Internships /></>}/>
           <Route path="/Courses" element={<><Navbar /><Courses /></>}/>
-          <Route path="/Intership/Details/:id" element={<><Navbar /><Details /></>}/>
-          <Route path="/Intership/Details/:id/Apply" element={<><Navbar /><Apply /></>}/>
-          <Route path="/Intership/Details/:id/Apply/Preferences" element={<><Navbar /><Preferences /></>}/>
-          <Route path="/Intership/Details/:id/Apply/Preferences/Resume" element={<><Navbar /><Resume /></>}/>
-          <Route path="/Intership/Details/:id/Apply/Preferences/Resume/BookMarks" element={<><Navbar /><BookMarks /></>}/>
+          <Route path="/Internship/Details/:id" element={<><Navbar /><Details /></>}/>
+          <Route path="/Internship/Details/:id/Apply" element={<><Navbar /><Apply /></>}/>
+          <Route path="/Internship/Details/:id/Apply/Preferences" element={<><Navbar /><Preferences /></>}/>
+          <Route path="/Internship/Details/:id/Apply/Preferences/Resume" element={<><Navbar /><Resume /></>}/>
+          <Route path="/Internship/Details/:id/Apply/Preferences/Resume/BookMarks" element={<><Navbar /><BookMarks /></>}/>
           <Route path="/AdminBookMarks" element={<><Navbar /><AdminBookMarks /></>}/>
         </Routes>
       </div>

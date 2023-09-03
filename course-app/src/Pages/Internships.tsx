@@ -111,7 +111,7 @@ const FilterIcon = () => (
   </span>
 );
 
-const Interships = () => {
+const Internships = () => {
   const [category, setCategory] = useState("");
   const [location, setLocation] = useState("");
   const [search, setSearch] = useState("");
@@ -381,4 +381,4 @@ const Interships = () => {
   );
 };
 
-export default Interships;
+export default Internships;

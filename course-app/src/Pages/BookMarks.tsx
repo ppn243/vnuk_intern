@@ -91,7 +91,7 @@ const BookMarks = () => {
                 <hr />
                 <div className="p-4 flex justify-end text-blue-800">
                   <TurnedInNotOutlinedIcon className="text-gray-400" />
-                  <Link to={"/Intership/Details/" + card.id}>
+                  <Link to={"/Internship/Details/" + card.id}>
                     View Details <KeyboardArrowRightIcon />
                   </Link>
                 </div>
