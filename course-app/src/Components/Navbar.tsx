@@ -81,7 +81,7 @@ const Navbar = () => {
           <div className="flex lg:flex-1">
             <a className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <h1 className="font-black text-2xl text-blue-900">IT LAND</h1>
+              <Link to="/" className="font-black text-2xl text-blue-900">IT LAND</Link>
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -194,7 +194,7 @@ const Navbar2 = () => {
           <div className="flex lg:flex-1">
             <a className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <h1 className="font-black text-2xl text-blue-900">IT LAND</h1>
+              <Link to="/" className="font-black text-2xl text-blue-900">IT LAND</Link>
             </a>
           </div>
           <div className="flex lg:hidden">
